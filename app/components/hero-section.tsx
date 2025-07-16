@@ -26,7 +26,7 @@ export default function HeroSection() {
     <section ref={containerRef} className="relative h-screen overflow-hidden">
       <motion.div style={{ y }} className="absolute inset-0 scale-110">
         <video ref={videoRef} autoPlay muted loop playsInline className="w-full h-full object-cover">
-          <source src="/hero-video.mov" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dewwfgn0e/video/upload/v1752675512/hero-video_rypivv.mp4" type="video/mp4" />
         </video>
       </motion.div>
 
