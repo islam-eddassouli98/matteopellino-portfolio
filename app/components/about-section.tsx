@@ -54,8 +54,8 @@ export default function AboutSection() {
               transition={{ delay: 0.6, duration: 0.8 }}
             >
               Ciao, sono <strong className="font-semibold">Matteo Pellino</strong>, un fotografo appassionato che
-              cattura momenti autentici e storie attraverso l'obiettivo. La mia visione si concentra sulla bellezza
-              naturale e sull'emozione umana.
+              cattura momenti autentici e storie attraverso l&apos;obiettivo. La mia visione si concentra sulla bellezza
+              naturale e sull&apos;emozione umana.
             </motion.p>
 
             <motion.p
@@ -65,8 +65,8 @@ export default function AboutSection() {
               transition={{ delay: 0.8, duration: 0.8 }}
             >
               Specializzato in fotografia di ritratto, paesaggi e travel photography, cerco sempre di creare immagini
-              che raccontino una storia e trasmettano emozioni profonde. Ogni scatto è un'opportunità per immortalare
-              l'irripetibile.
+              che raccontino una storia e trasmettano emozioni profonde. Ogni scatto è un&apos;opportunità per immortalare
+              l&apos;irripetibile.
             </motion.p>
 
             <motion.p
@@ -76,7 +76,7 @@ export default function AboutSection() {
               transition={{ delay: 1, duration: 0.8 }}
             >
               Ho avuto il privilegio di collaborare con brand internazionali e di documentare storie in tutto il mondo,
-              sempre con l'obiettivo di creare contenuti visivi che lascino il segno.
+              sempre con l&apos;obiettivo di creare contenuti visivi che lascino il segno.
             </motion.p>
 
             <motion.div

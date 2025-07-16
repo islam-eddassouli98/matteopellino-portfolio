@@ -51,7 +51,7 @@ export default function BrandsSlider() {
             }}
           >
             {/* First set */}
-            {brands.map((brand, index) => (
+            {brands.map((brand) => (
               <motion.div
                 key={`first-${brand.name}`}
                 className="flex-shrink-0 flex items-center justify-center w-55 h-30 bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 group"
@@ -67,7 +67,7 @@ export default function BrandsSlider() {
               </motion.div>
             ))}
             {/* Second set for seamless loop */}
-            {brands.map((brand, index) => (
+            {brands.map((brand) => (
               <motion.div
                 key={`second-${brand.name}`}
                 className="flex-shrink-0 flex items-center justify-center w-48 h-24 bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 group"

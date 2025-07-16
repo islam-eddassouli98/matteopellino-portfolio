@@ -48,7 +48,7 @@ export default function PortfolioSlider() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
-            Una selezione dei miei lavori più significativi, che raccontano storie attraverso l'obiettivo
+            Una selezione dei miei lavori più significativi, che raccontano storie attraverso l&apos;obiettivo
           </motion.p>
         </motion.div>
 

@@ -185,7 +185,6 @@ export default function EnhancedLoadingScreen() {
                         <motion.span
                           key={i}
                           custom={i}
-                          variants={nameVariants}
                           initial="hidden"
                           animate="visible"
                           className="inline-block"

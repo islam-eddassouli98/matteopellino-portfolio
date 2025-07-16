@@ -106,7 +106,7 @@ export default function ArtisticSection() {
             transition={{ delay: 0.8, duration: 0.8 }}
           >
             Ispirato dai colori delicati e dalla luce dorata della costiera amalfitana, creo immagini che catturano
-            l'essenza mediterranea con palette soft e atmosfere sognanti
+            l&apos;essenza mediterranea con palette soft e atmosfere sognanti
           </motion.p>
         </motion.div>
 
