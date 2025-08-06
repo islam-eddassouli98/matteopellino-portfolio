@@ -7,20 +7,14 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "matteo@pellino.com",
-    href: "mailto:matteo@pellino.com",
-  },
-  {
-    icon: Phone,
-    label: "Phone",
-    value: "+39 123 456 7890",
-    href: "tel:+39123456789",
+    value: "matteo@pellinomatteo.com",
+    href: "matteo@pellinomatteo.com",
   },
   {
     icon: MapPin,
     label: "Location",
     value: "Milano, Italy",
-    href: "#",
+    href: "https://maps.app.goo.gl/C23HDoTfNi2YzD3o7",
   },
   {
     icon: Clock,
@@ -35,7 +29,7 @@ const socialLinks = [
     icon: Instagram,
     name: "Instagram",
     handle: "@matteopellino",
-    href: "https://instagram.com/matteopellino",
+    href: "https://instagram.com/pellinomatteo",
     color: "from-pink-500 to-purple-600",
   },
   {
@@ -275,13 +269,14 @@ export default function ContactSection() {
           transition={{ delay: 0.8, duration: 0.8 }}
         >
           <motion.p className="text-lg text-white/60 mb-6 font-light">Ready to start your next project?</motion.p>
-          <motion.button
+          <motion.a
+            href="https://instagram.com/pellinomatteo"
             className="px-12 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700 transition-all duration-500 tracking-[0.15em] font-medium text-sm font-montserrat rounded-full shadow-lg hover:shadow-xl"
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
           >
             BOOK A CONSULTATION
-          </motion.button>
+          </motion.a>
         </motion.div>
       </div>
     </section>
